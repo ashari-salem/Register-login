@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1.4rem;
+}
+
+/* Form Styling */
+.container {
+  margin: auto auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 700px;
+  background-color: #c1e5f7;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 3px #888;
+  padding: 10px 10px;
+}
+
+/* Form Styling */
+.form {
+  margin: 10px 0;
+  background-color: #eee;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.form div input {
+  width: 44%;
+  margin: 5px;
+  height: 40px;
+  border: 1px solid #79BFE2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form div input:focus {
+  outline: none !important;
+  border: 1px solid #7b79e2;
+  box-shadow: 0 0 8px #719ECE;
+}
+
+
+.form .input {
+  width: 90%;
+  margin: 15px;
+  height: 40px;
+  border: 1px solid #79BFE2;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form .input:focus {
+  outline: none !important;
+  border: 1px solid #7b79e2;
+  box-shadow: 0 0 8px #719ECE;
+}
+
+.form .chk {
+  width: 30px;
+  height: 15px;
+  padding: 0;
+  margin: 5px;
+}
+
+.btn {
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  width: 90%;
+  background-color: #0ac007;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #eee;
+  font-weight: bolder;
+  text-shadow: #000 1px 1px 5px;
+}
+
+.btn:hover {
+  background-color: #20b61d;
+  color: #fff;
+}
+
+.form>div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.top-content {
+  margin: 20px 0px;
+}
+
+.top-content h2 {
+  padding: 20px;
+}
+
+.bottom-content {
+  margin-bottom: 20px;
+}
+
+
+/* Responsive Stylings */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  .form {
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .form div input,
+  .form .input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .form .top-content {
+    font-size: 15px;
+  }
+}
