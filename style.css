@@ -98,6 +98,16 @@ body {
   background-color: #CCC27B;
 }
 
+.bottom-content-signup a {
+  text-decoration: none;
+  margin: 20px 10px;
+  color: #292200;
+  text-shadow: 0 0 15px;
+  display: inline;
+}
+
+
+
 /* Responsive design */
 @media only screen and (max-width: 750px) {
 
@@ -107,7 +117,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
   }
 
   .form .top-content {
@@ -166,6 +176,38 @@ body {
     font-size: 16px;
   }
 
+  .form .chk-signin {
+    display: block;
+  }
+
+  .form .chk-signin input {
+    margin: 0 10px !important;
+  }
+
+  .form .bottom-content-signin p,
+  .form .bottom-content-signin a {
+    display: inline !important;
+  }
+
+  .form .other-inputs input {
+    width: 100%;
+    height: 40px;
+    padding: 5px 15px !important;
+    border-radius: 5px;
+    border: 1px solid #BAAE4F;
+  }
+
+  .form .bottoms {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    margin-top: 3px;
+  }
+
+  .form .bottoms .bottom-content-socials {
+    margin-bottom: 5px !important;
+  }
+
 }
 
 @media only screen and (max-width: 580px) {
@@ -214,4 +256,63 @@ body {
     font-size: 14px;
   }
 
+
+}
+
+
+/* Login Styling */
+.form .other-inputs input {
+  width: 100%;
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #BAAE4F;
+  margin: 8px 0;
+}
+
+.form .chk-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.form .chk-signin input {
+  width: 20px;
+  margin: 10px 10px;
+
+}
+
+.form .bottoms {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .bottoms .bottom-content-socials {
+  margin-bottom: 30px;
+}
+
+
+.form .bottom-content-socials a {
+  text-decoration: none;
+  margin: 20px 20px;
+  color: #292200;
+  text-shadow: 0 0 15px;
+  display: inline;
+}
+
+.form .bottom-content-socials i {
+  margin-right: 5px;
+}
+
+.form .bottom-content-signin a {
+  text-decoration: none;
+  margin: 20px 10px;
+  color: #292200;
+  text-shadow: 0 0 15px;
+  display: inline;
+}
+
+.form .bottom-content-signin p {
+  display: block;
 }
