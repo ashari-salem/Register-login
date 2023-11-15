@@ -11,27 +11,27 @@
 <body>
   <div class="container">
     <div class="form">
-
-      <form action="POST">
+      <form action="POST" class="form-container">
         <div class="top-content">
           <h2>Register</h2>
           <p>Create Your Account.it's free and only takes a minute.</p>
         </div>
-
-        <div>
+        <div class="name-lastname">
           <input type="text" name="name" id="Name" placeholder="First Name">
           <input type="text" name="lastname" id="LastName" placeholder="Last Name">
         </div>
         <input class="input" type="email" name="email" id="Email" placeholder="Email">
         <input class="input" type="password" name="password" id="Password" placeholder="Password">
         <input class="input" type="password" name="email" id="Confirm-Password" placeholder="Confirm password">
-        <input type="checkbox" class="chk">I accept <span><a href="termOfUse">Terms of Use</a> & <a
-            href="privacyPolicy">Privacy
-            Policy.</a></span>
+        <div class="chk">
+          <input type="checkbox" class="chkbox"><label class="trms" for="temsAndPolicy">I accept <span><a
+                href="termOfUse">Terms of
+                Use</a> & <a href="privacyPolicy">PrivacyPolicy.</a></span></label>
+        </div>
         <input type="submit" id="Submit" name="submit" class="btn">
       </form>
       <div class="bottom-content">
-        <p>Already have an account ? <a href="sign-in.html">Sign In</a></p>
+        <p>Already have an account ? <a href="signin.html"> Sign In</a></p>
       </div>
 
     </div>
